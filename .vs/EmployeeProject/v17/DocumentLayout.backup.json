@@ -1,0 +1,209 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\components\\pages\\viewemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:components\\pages\\viewemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\components\\pages\\newemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:components\\pages\\newemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\components\\pages\\modifyemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:components\\pages\\modifyemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\data\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:data\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\data\\successfulexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:data\\successfulexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\data\\iemployeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:data\\iemployeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\data\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:data\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|c:\\users\\phath\\onedrive\\desktop\\oop2_cprg211\\000_final\\project\\employeeproject\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50C88C5D-BCC0-456A-9375-56372403A81E}|EmployeeProject.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SuccessfulException.cs",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\SuccessfulException.cs",
+              "RelativeDocumentMoniker": "Data\\SuccessfulException.cs",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\SuccessfulException.cs",
+              "RelativeToolTip": "Data\\SuccessfulException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T07:28:36.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T06:07:30.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeManager.cs",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\EmployeeManager.cs",
+              "RelativeDocumentMoniker": "Data\\EmployeeManager.cs",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\EmployeeManager.cs",
+              "RelativeToolTip": "Data\\EmployeeManager.cs",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAowGUBAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:04:12.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployeeData.cs",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\IEmployeeData.cs",
+              "RelativeDocumentMoniker": "Data\\IEmployeeData.cs",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\IEmployeeData.cs",
+              "RelativeToolTip": "Data\\IEmployeeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T05:02:20.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\Department.cs",
+              "RelativeDocumentMoniker": "Data\\Department.cs",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\Department.cs",
+              "RelativeToolTip": "Data\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T23:30:01.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\Employee.cs",
+              "RelativeDocumentMoniker": "Data\\Employee.cs",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Data\\Employee.cs",
+              "RelativeToolTip": "Data\\Employee.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwDsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T20:27:19.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModifyEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\ModifyEmployee.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ModifyEmployee.razor",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\ModifyEmployee.razor",
+              "RelativeToolTip": "Components\\Pages\\ModifyEmployee.razor",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAhwGoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T20:15:24.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\ViewEmployee.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\ViewEmployee.razor",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\ViewEmployee.razor",
+              "RelativeToolTip": "Components\\Pages\\ViewEmployee.razor",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAhwMMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T20:14:45.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T20:07:17.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewEmployee.razor",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\NewEmployee.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\NewEmployee.razor",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\NewEmployee.razor",
+              "RelativeToolTip": "Components\\Pages\\NewEmployee.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAhwF0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T20:10:51.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T20:06:00.539Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

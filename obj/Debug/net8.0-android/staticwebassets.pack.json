@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\EmployeeProject.styles.css",
+      "PackagePath": "staticwebassets\\EmployeeProject.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\phath\\OneDrive\\Desktop\\OOP2_CPRG211\\000_FINAL\\PROJECT\\EmployeeProject\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.EmployeeProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.EmployeeProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.EmployeeProject.props",
+      "PackagePath": "build\\EmployeeProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeProject.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.EmployeeProject.props",
+      "PackagePath": "buildTransitive\\EmployeeProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

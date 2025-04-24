@@ -1,0 +1,211 @@
+﻿@page "/view_employee"
+@using EmployeeProject.Data
+@using MySqlConnector
+
+@inject IEmployeeData EmployeeManager
+
+<!-- DISPLAY ERROR MESSAGE -->
+<div class="container">
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger" role="alert">
+            @errorMessage
+        </div>
+    }
+</div>
+
+<!-- SEARCH AREA -->
+<h3>Search Employee</h3>
+<form @onsubmit="Search">
+    <div class="card p-3 shadow-sm mb-4">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="id" @onchange="() => searchOption = 1" checked="@(searchOption == 1)" />
+            <label class="form-check-label" for="id">Employee ID</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="lastName" @onchange="() => searchOption = 2" checked="@(searchOption == 2)" />
+            <label class="form-check-label" for="lastName">Last Name</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="jobTitle" @onchange="() => searchOption = 3" checked="@(searchOption == 3)" />
+            <label class="form-check-label" for="jobTitle">Job Title (Text or 1 = Professor, 2 = Lecturer, 3 = Associate Professor, 4 = Assistant Professor)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="deptId" @onchange="() => searchOption = 4" checked="@(searchOption == 4)" />
+            <label class="form-check-label" for="deptId">Department ID (1 = Computer Science, 2 = Mathematics, 3 = Physics, 4 = Biology, 5 = History)</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="yearHired" @onchange="() => searchOption = 5" checked="@(searchOption == 5)" />
+            <label class="form-check-label" for="yearHired">Year Hired</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="recentlyAdded" @onchange="() => searchOption = 6" checked="@(searchOption == 6)" />
+            <label class="form-check-label" for="recentlyAdded">Recently Added</label>
+        </div>
+
+        <div class="input-group mt-3">
+            <input class="form-control" placeholder="Enter search keyword" @bind="searchValue" />
+            <button class="btn btn-outline-primary" @onclick="Search">Search</button>
+        </div>
+    </div>
+</form>
+
+<!-- SHOW ALL EMPLOYEES BUTTON -->
+<div class="d-flex justify-content-end mt-3">
+    <button class="btn btn-success btn-lg px-4 shadow-sm d-flex align-items-center gap-2" @onclick="DisplayEmployee">
+        <i class="bi bi-people-fill fs-5"></i>
+        Show All Employees
+    </button>
+</div>
+
+<!-- DISPLAY RESULT -->
+<h3>Result (@employees.Count())</h3>
+
+<!-- DISPLAY MESSAGE IF NO SEARCH RESULT FOUND -->
+<div class="container">
+    @if (!string.IsNullOrEmpty(searchMessage))
+    {
+        <div class="alert alert-warning" role="alert">
+            @searchMessage
+        </div>
+    }
+</div>
+
+<!-- LIST OF SEARCH RESULTS -->
+<div class="container">
+    <div class="row mb-4">
+        <div class="col">
+            <table class="table table-bordered table-striped shadow-sm rounded">
+                <tbody>
+                    <tr>
+                        <th class="bg-secondary text-white text-center">ID</th>
+                        <th class="bg-secondary text-white text-center">Name</th>
+                        <th class="bg-secondary text-white text-center">Job Title</th>
+                        <th class="bg-secondary text-white text-center">DoB</th>
+                        <th class="bg-secondary text-white text-center">Hire Date</th>
+                        <th class="bg-secondary text-white text-center">Email</th>
+                        <th class="bg-secondary text-white text-center">Salary</th>
+                        <th class="bg-secondary text-white text-center">Department</th>
+                        <th class="bg-secondary text-white text-center">Delete</th>
+
+                    </tr>
+                    @foreach(var emp in employees)
+                    {
+                        <tr>
+                            <td class="text-center">@emp.EmpId</td>
+                            <td>@emp.FirstName @emp.LastName</td>
+                            <td>@emp.JobTitle</td>
+                            <td class="text-center">@emp.DoB.ToString("MM/dd/yyyy")</td>
+                            <td class="text-center">@emp.HireDate.ToString("MM/dd/yyyy")</td>
+                            <td class="text-center">@emp.Email</td>
+                            <td class="text-center">$@emp.Salary.ToString("N2")</td>
+                            <td class="text-center">
+                                @foreach(var dept in departments)
+                                {
+                                    if (emp.DeptID == dept.DeptId)
+                                    {
+                                        @dept.Name
+                                        ;
+                                        break;
+                                    }
+                                }
+                            </td>
+                            <td class="text-center">
+                                <button class="btn btn-sm btn-danger" @onclick="() => DeleteEmployee(emp.EmpId)">
+                                    <i class="bi bi-trash-fill"></i> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5" />
+                                    </svg>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Employee> employees = new();
+    private List<Department> departments = new();
+
+    private int searchOption = 0;       // Radio button value
+    private string searchValue = "";    // Input keyword
+
+    private string errorMessage = "";   // Receive error message
+    private string searchMessage = "";  // Receive success message
+
+    private void LoadDepartment()
+    {
+        try
+        {
+            // Get list of departments
+            departments = EmployeeManager.GetDepartments();
+        }
+        catch (MySqlException ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
+    private void DisplayEmployee()
+    {
+        // Clear employees list
+        // Get departments list
+        employees.Clear();
+        LoadDepartment();
+
+        try
+        {
+            // Get list of employees
+            employees = EmployeeManager.GetAllEmployees();
+            errorMessage = "";
+        }
+        catch (Exception ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
+    private void Search()
+    {
+        // Remove previous search message
+        // Get departments list
+        searchMessage = "";
+        LoadDepartment();
+
+        try
+        {
+            // Remove previous error message
+            // Get employees list from search
+            errorMessage = "";
+            employees = EmployeeManager.SearchEmployees(searchOption, searchValue, departments);
+
+            // If no employee found, return search message
+            if (employees.Count() == 0)
+            {
+                searchMessage = "No employee found!";
+            }
+        }
+        catch(Exception ex)
+        {
+            errorMessage = ex.Message;
+        }
+    }
+
+    private void DeleteEmployee(int deleteId)
+    {
+        try
+        {
+            // Delete employee
+            EmployeeManager.DeleteEmployee(deleteId, employees);
+        }
+        catch (MySqlException ex)
+        {
+            errorMessage = ex.Message;
+        }
+        catch (Exception)
+        {
+        }
+    }
+}
